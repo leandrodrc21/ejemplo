@@ -5,7 +5,7 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-        var url = "http://localhost/webservices/json.php";
+        var url = "http://192.168.1.78/webservices/json.php";
         $.getJSON(url, function(result) {
             console.log(result);
             $.each(result, function(i, field) {
